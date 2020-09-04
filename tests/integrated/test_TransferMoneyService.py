@@ -1,8 +1,8 @@
 import pytest
-from src.application.transferMoneyService import TransferMoneyService
-from src.adapter.repositoryAccount import RepositoryAccount
-from src.domainModel.account import Account
-from src.domainModel.accountNumber import AccountNumber
+from bank.application.transferMoneyService import TransferMoneyService
+from bank.adapter.repositoryAccount import RepositoryAccount
+from bank.domainModel.account import Account
+from bank.domainModel.accountNumber import AccountNumber
 
 def test_transferMoney():
     repository = RepositoryAccount()

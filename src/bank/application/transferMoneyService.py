@@ -1,4 +1,4 @@
-from domainModel.interface.abstractRepositoryAccount import AbstractRepositoryAccount
+from bank.domainModel.interface.abstractRepositoryAccount import AbstractRepositoryAccount
 
 class TransferMoneyService:
     def __init__(self, repository):

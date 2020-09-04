@@ -1,4 +1,4 @@
-from domainModel.accountNumber import AccountNumber
+from bank.domainModel.accountNumber import AccountNumber
 
 class Account:
     def __init__(self, number: AccountNumber, balance):

@@ -1,5 +1,5 @@
 import pytest
-from src.domainModel.accountNumber import AccountNumber
+from bank.domainModel.accountNumber import AccountNumber
 
 def test_NumberAccount():
     number = AccountNumber("123456")

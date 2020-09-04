@@ -1,6 +1,6 @@
 import abc
-from domainModel.accountNumber import AccountNumber
-from domainModel.account import Account
+from bank.domainModel.accountNumber import AccountNumber
+from bank.domainModel.account import Account
 
 class AbstractRepositoryAccount(abc.ABC):
 

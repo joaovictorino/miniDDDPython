@@ -1,5 +1,5 @@
 import pytest
-from src.domainModel.account import Account
+from bank.domainModel.account import Account
 
 def test_deposit():
     account = Account("123456", 100)

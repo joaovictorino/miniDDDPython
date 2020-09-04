@@ -1,7 +1,7 @@
 import pytest
-from src.adapter.repositoryAccount import RepositoryAccount
-from src.domainModel.account import Account
-from src.domainModel.accountNumber import AccountNumber
+from bank.adapter.repositoryAccount import RepositoryAccount
+from bank.domainModel.account import Account
+from bank.domainModel.accountNumber import AccountNumber
 
 def test_addAccount():
     number = AccountNumber("123456")

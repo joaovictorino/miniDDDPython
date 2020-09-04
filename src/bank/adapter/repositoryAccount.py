@@ -1,6 +1,6 @@
-from src.domainModel.interface.abstractRepositoryAccount import AbstractRepositoryAccount
-from src.domainModel.accountNumber import AccountNumber
-from src.domainModel.account import Account
+from domainModel.interface.abstractRepositoryAccount import AbstractRepositoryAccount
+from domainModel.accountNumber import AccountNumber
+from domainModel.account import Account
 
 class RepositoryAccount(AbstractRepositoryAccount):
 

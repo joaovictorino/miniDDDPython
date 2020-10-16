@@ -1,2 +1,2 @@
 pip install -r requirements.txt
-export PYTHONPATH=/workspace/miniDDDPython/src 
+export PYTHONPATH=/home/joao/Source/miniDDDPython/src

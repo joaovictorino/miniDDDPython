@@ -1,5 +1,5 @@
 import pytest
-from bank.application.transferMoneyService import TransferMoneyService
+from bank.domainModel.service.transferMoneyService import TransferMoneyService
 from bank.adapter.repositoryAccount import RepositoryAccount
 from bank.domainModel.account import Account
 from bank.domainModel.accountNumber import AccountNumber
